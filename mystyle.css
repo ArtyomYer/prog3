@@ -1,0 +1,108 @@
+canvas {
+	margin-left: 600px;
+}
+body {
+	background-image: linear-gradient(#5DE2C8, #7F1FD5);
+	font-family: 'Brush Script MT', cursive;
+
+}
+
+
+
+.Game-Of-Life {
+	height: 100px;
+	text-align: center;
+	color: #7F1FD5;
+	font-size: 50px;
+	  
+}
+
+
+
+
+
+.Grass {
+	position: fixed;
+	width: 500px;
+	text-align: left;
+	font-size: 40px
+}
+.GrassEater{
+	position: fixed;
+	bottom: 70%;
+	width: 500px;
+	text-align: left;
+	font-size: 40px
+}
+.Predator{
+	position: fixed;
+	bottom: 55%;
+	width: 500px;
+	text-align: left;
+	font-size: 40px
+}
+.Cleaner{
+	position: fixed;
+	bottom: 40%;
+	width: 500px;
+	text-align: left;
+	font-size: 40px
+}
+.Creator{
+	position: fixed;
+	bottom: 25%;
+	width: 500px;
+	text-align: left;
+	font-size: 40px
+}
+
+.GrText {
+	position: fixed;
+	bottom: 78%;
+	width: 500px;
+	text-align: left;
+	font-size: 20px;
+}
+.GrEatText {
+	position: fixed;
+	bottom: 63%;
+	width: 500px;
+	text-align: left;
+	font-size: 20px;
+}
+.PrText {
+	position: fixed;
+	bottom: 48%;
+	width: 500px;
+	text-align: left;
+	font-size: 20px;
+}
+.ClText {
+	position: fixed;
+	bottom: 33%;
+	width: 500px;
+	text-align: left;
+	font-size: 20px;
+}
+.CRText{
+	position: fixed;
+	bottom: 17%;
+	width: 500px;
+	text-align: left;
+	font-size: 20px;
+
+}
+.Info {
+	position: fixed;
+	bottom: 0;
+	right: 1;
+	width: 500px;
+	font-size: 35px;
+}
+.InfoN {
+	position: fixed;
+	bottom: 1%;
+	right: 40%;
+	width: 500px;
+	font-size: 50px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TUMO 2022-May</title>
+	<link rel="stylesheet" href="mystyle.css">
+
+
+</head>
+
+<body>
+	<div class="Game-Of-Life">
+	Game-Of-Life
+	</div>
+	<div style="color: green;" class="Grass">Grass</div>
+	<div class="GrText">Խոտ - բազմանում է մոտակա 8 վանդակներում</div>
+	<div style="color: yellow;" class="GrassEater">GrassEater</div>
+	<div class="GrEatText">Խոտակեր - ապրում է խոտեր ուտելով, </br> մեռնում է երբ էներգիան(8) հասնում է
+		0ի </div>
+	<div style="color: red;" class="Predator" >Predator</div>
+	<div class="PrText">Գիշատիչ - ուտում է խոտակերներին ,</br> մեռնում է երբ էներգիան(8) հասնում է
+		0ի </div>
+	<div style="color: purple;" class="Cleaner">Cleaner</div>
+	<div class="ClText">Մաքրող ռումբ - վերացնում է ամեն ինչ խաչաձեւ</br> երբ էներգիան(100) հասնում է
+		0ի </div>
+	<div style="color: blue;" class="Creator">Creator</div>
+	<div class="CRText">Արարիչ - ստեղծում է վերը նշված կերպարները </br>կախված կյանքի տեվողությունից</div>
+	<div class="Info" style="color: rgba(0, 49, 128, 0.854);">Programming 2 <br> 05.2022</div>
+	<div class="InfoN" style="color: rgba(0, 49, 128, 0.854);">Artyom Yeranosian</div>
+	
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+	<script src="script.js"></script>
+	<script src="leavingCreature.js"></script>
+	<script src="grass.js"></script>
+	<script src="grasseter.js"></script>
+	<script src="predator.js"></script>
+	<script src="cleaner.js"></script>
+	<script src="creator.js"></script>
+
+	
+</body>
+
+</html>
